@@ -14,3 +14,5 @@ while True:
     ser.write(bytes(led_state + '\n', "utf-8"))
     # time.sleep(1)
     print('output: ', ser.readline().decode('utf-8'))
+
+asdfasdf
